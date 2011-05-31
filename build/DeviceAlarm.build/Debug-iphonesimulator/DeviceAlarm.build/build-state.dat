@@ -1,0 +1,878 @@
+TDeviceAlarm
+v7
+r0
+t320446473.967900
+cCheck dependencies
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC1224600000000001EA9C0
+t1287725638
+s2009536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioServices.h
+c000000004CC1222F0000000000010AAC
+t1287725615
+s68268
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004CC122A000000000001D6CE0
+t1287725728
+s1928416
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004CC12294000000000000046B
+t1287725716
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004CC127E80000000000074190
+t1287727080
+s475536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004CC127DD00000000000001D0
+t1287727069
+s464
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/iAd.framework/Headers/iAd.h
+c000000004CC657750000000000000071
+t1288066933
+s113
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/iAd.framework/iAd
+c000000004CC65780000000000002F590
+t1288066944
+s193936
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/AccelerometerController.h
+c000000004D4EC616000000000000025C
+t1297008150
+s604
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"AlertDelegate.h"
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/AccelerometerController.m
+c000000004D4EC5D400000000000006AE
+t1297008084
+s1710
+i"AccelerometerController.h"
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/AdsController.h
+c000000004D4C7DD0000000000000015A
+t1296858576
+s346
+i<UIKit/UIKit.h>
+i<iAd/iAd.h>
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/AdsController.m
+c000000004D4C7DD000000000000005AC
+t1296858576
+s1452
+i"AdsController.h"
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/AdsController.xib
+c000000004D4F16390000000000005651
+t1297028665
+s22097
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/AlertDelegate.h
+c000000004D4EBE0B00000000000000D1
+t1297006091
+s209
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/DeviceAlarm_Prefix.pch
+c000000004D41CED800000000000000BF
+t1296158424
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/LocationController.h
+c000000004D4EC5450000000000000362
+t1297007941
+s866
+i<Foundation/Foundation.h>
+i<CoreLocation/CoreLocation.h>
+i"AlertDelegate.h"
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/LocationController.m
+c000000004D5802240000000000000805
+t1297613348
+s2053
+i"LocationController.h"
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/MainController.h
+c000000004D649CA400000000000003BA
+t1298439332
+s954
+i<UIKit/UIKit.h>
+i"SettingsController.h"
+i"LocationController.h"
+i"AccelerometerController.h"
+i"PlaySound.h"
+i"AdsController.h"
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/MainController.m
+c000000004D649DE10000000000001372
+t1298439649
+s4978
+i"MainController.h"
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/MainController.xib
+c000000004D602C3D0000000000001865
+t1298148413
+s6245
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/PlaySound.h
+c000000004D4F08A400000000000001F1
+t1297025188
+s497
+i<Foundation/Foundation.h>
+i<AudioToolbox/AudioServices.h>
+i"SoundDelegate.h"
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/PlaySound.m
+c000000004D4F110100000000000004AE
+t1297027329
+s1198
+i"PlaySound.h"
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/Resources/AlarmDisplay.png
+c000000004D4F15C10000000000022F23
+t1297028545
+s143139
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/Resources/Default.png
+c000000004D2269310000000000015B91
+t1294100785
+s88977
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/Resources/Icon-72.png
+c000000004D4F18FE0000000000001EE6
+t1297029374
+s7910
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/Resources/Icon.png
+c000000004D4F1910000000000000164E
+t1297029392
+s5710
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/Resources/Icon@2x.png
+c000000004D4F18CC0000000000003A00
+t1297029324
+s14848
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/Resources/alarm.wav
+c000000004D4F12C000000000000D64FC
+t1297027776
+s877820
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/Resources/alarm1.gif
+c000000004D600B60000000000000869A
+t1298140000
+s34458
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/Resources/bigIcon.png
+c000000004D4F18E800000000000237CC
+t1297029352
+s145356
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/Resources/caralarm.wav
+c000000004831920E00000000005F1314
+t1211208206
+s6230804
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/Resources/matrix.jpg
+c000000004D600C650000000000016523
+t1298140261
+s91427
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/SettingsController.h
+c000000004D603D6A00000000000000FE
+t1298152810
+s254
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/SettingsController.m
+c000000004D604248000000000000067F
+t1298154056
+s1663
+i"SettingsController.h"
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/SettingsController.xib
+c000000004D60268B0000000000006D09
+t1298146955
+s27913
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/Shared/AppDelegate_Shared.h
+c000000004D603D1F00000000000007BA
+t1298152735
+s1978
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+i"LocationController.h"
+i"AccelerometerController.h"
+i"AdsController.h"
+i"AlertDelegate.h"
+i"PlaySound.h"
+i"SoundDelegate.h"
+i"SettingsController.h"
+i"MainController.h"
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/Shared/AppDelegate_Shared.m
+c000000004D603D910000000000002439
+t1298152849
+s9273
+i"AppDelegate_Shared.h"
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/Shared/DeviceAlarm.xcdatamodeld
+c000000004D41CED80000000000000088
+t1296158424
+s136
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/Shared/main.m
+c000000004D41CED80000000000000160
+t1296158424
+s352
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/SoundDelegate.h
+c000000004D4F08EB00000000000000CD
+t1297025259
+s205
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app.dSYM
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/AdsController.nib
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/AlarmDisplay.png
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/Default.png
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/DeviceAlarm
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/DeviceAlarm.momd
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/Icon-72.png
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/Icon.png
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/Icon@2x.png
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/Info.plist
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/MainController.nib
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/MainWindow_iPad.nib
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/MainWindow_iPhone.nib
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/PkgInfo
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/SettingsController.nib
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/alarm.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/alarm1.gif
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/bigIcon.png
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/caralarm.wav
+t1297026366
+s6230804
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/iPadController.nib
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/iPadMainController.nib
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/iPadSettingsController.nib
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/matrix.jpg
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/AccelerometerController.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/AdsController.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/AppDelegate_Shared.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/AppDelegate_iPad.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/AppDelegate_iPhone.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/DeviceAlarm.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/LocationController.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/MainController.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/PlaySound.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/SettingsController.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/iPadController.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/iPadSettingsController.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/iPad/AppDelegate_iPad.h
+c000000004D41CED800000000000000FC
+t1296158424
+s252
+i<UIKit/UIKit.h>
+i"AppDelegate_Shared.h"
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/iPad/AppDelegate_iPad.m
+c000000004D4F13CF0000000000000775
+t1297028047
+s1909
+i"AppDelegate_iPad.h"
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/iPad/MainWindow_iPad.xib
+c000000004D60419800000000000075EB
+t1298153880
+s30187
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/iPadController.h
+c000000004D602C9F00000000000000D7
+t1298148511
+s215
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/iPadController.m
+c000000004D602C9F0000000000000512
+t1298148511
+s1298
+i"iPadController.h"
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/iPadController.xib
+c000000004D602C9F000000000000509B
+t1298148511
+s20635
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/iPadMainController.xib
+c000000004D649E560000000000006C63
+t1298439766
+s27747
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/iPadSettingsController.h
+c000000004D6026F400000000000000E7
+t1298147060
+s231
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/iPadSettingsController.m
+c000000004D6026F4000000000000052A
+t1298147060
+s1322
+i"iPadSettingsController.h"
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/iPadSettingsController.xib
+c000000004D6042EF0000000000008396
+t1298154223
+s33686
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/iPhone/../MainController.xib
+c000000004D649E3C0000000000005C3D
+t1298439740
+s23613
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/iPhone/../SettingsController.xib
+c000000004D602996000000000000703D
+t1298147734
+s28733
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/iPhone/AppDelegate_iPhone.h
+c000000004D41CED80000000000000100
+t1296158424
+s256
+i<UIKit/UIKit.h>
+i"AppDelegate_Shared.h"
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/iPhone/AppDelegate_iPhone.m
+c000000004D41CED80000000000000AC4
+t1296158424
+s2756
+i"AppDelegate_iPhone.h"
+
+N/Users/alpascual/Pet Projects/DeviceAlarm/iPhone/MainWindow_iPhone.xib
+c000000004D6041AE0000000000007D1C
+t1298153902
+s32028
+
+N/var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DeviceAlarm_Prefix-fymdfmlzinsskwfkjmgwpobxvdyx/DeviceAlarm_Prefix.pch.gch
+t2
+s0
+
+NDeviceAlarm-Info.plist
+c000000004D4F243C00000000000005EC
+t1297032252
+s1516
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies320446473#320446473#0(0"0(0#1#0"8618676864#0"0#
+
+CCompileC build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/AccelerometerController.o "/Users/alpascual/Pet Projects/DeviceAlarm/AccelerometerController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s318719166.946460
+e318719167.039275
+r1
+xCompileC
+xbuild/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/AccelerometerController.o
+x/Users/alpascual/Pet Projects/DeviceAlarm/AccelerometerController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/alpascual/Pet Projects/DeviceAlarm/AccelerometerController.m318719166#318719167#0(0"0(0#0#67"/Users/alpascual/Pet Projects/DeviceAlarm/AccelerometerController.m8662426624#2087"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-generated-files.hmap" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-project-headers.hmap" "-F/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DeviceAlarm_Prefix-fymdfmlzinsskwfkjmgwpobxvdyx/DeviceAlarm_Prefix.pch -c "/Users/alpascual/Pet Projects/DeviceAlarm/AccelerometerController.m" -o "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/AccelerometerController.o"0#
+
+CCompileC build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/AdsController.o "/Users/alpascual/Pet Projects/DeviceAlarm/AdsController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s318551376.491105
+e318551376.550305
+r1
+xCompileC
+xbuild/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/AdsController.o
+x/Users/alpascual/Pet Projects/DeviceAlarm/AdsController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/alpascual/Pet Projects/DeviceAlarm/AdsController.m318551376#318551376#0(0"0(0#0#57"/Users/alpascual/Pet Projects/DeviceAlarm/AdsController.m8625977952#2067"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-generated-files.hmap" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-project-headers.hmap" "-F/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DeviceAlarm_Prefix-fymdfmlzinsskwfkjmgwpobxvdyx/DeviceAlarm_Prefix.pch -c "/Users/alpascual/Pet Projects/DeviceAlarm/AdsController.m" -o "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/AdsController.o"0#
+
+CCompileC build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/AppDelegate_Shared.o "/Users/alpascual/Pet Projects/DeviceAlarm/Shared/AppDelegate_Shared.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s320132312.397760
+e320132312.607460
+r1
+xCompileC
+xbuild/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/AppDelegate_Shared.o
+x/Users/alpascual/Pet Projects/DeviceAlarm/Shared/AppDelegate_Shared.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/alpascual/Pet Projects/DeviceAlarm/Shared/AppDelegate_Shared.m320132312#320132312#0(0"0(0#0#69"/Users/alpascual/Pet Projects/DeviceAlarm/Shared/AppDelegate_Shared.m8616550368#2084"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-generated-files.hmap" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-project-headers.hmap" "-F/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DeviceAlarm_Prefix-fymdfmlzinsskwfkjmgwpobxvdyx/DeviceAlarm_Prefix.pch -c "/Users/alpascual/Pet Projects/DeviceAlarm/Shared/AppDelegate_Shared.m" -o "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/AppDelegate_Shared.o"0#
+
+CCompileC build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/AppDelegate_iPad.o "/Users/alpascual/Pet Projects/DeviceAlarm/iPad/AppDelegate_iPad.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s320132312.396842
+e320132312.528172
+r1
+xCompileC
+xbuild/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/AppDelegate_iPad.o
+x/Users/alpascual/Pet Projects/DeviceAlarm/iPad/AppDelegate_iPad.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/alpascual/Pet Projects/DeviceAlarm/iPad/AppDelegate_iPad.m320132312#320132312#0(0"0(0#0#65"/Users/alpascual/Pet Projects/DeviceAlarm/iPad/AppDelegate_iPad.m8619946400#2078"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-generated-files.hmap" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-project-headers.hmap" "-F/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DeviceAlarm_Prefix-fymdfmlzinsskwfkjmgwpobxvdyx/DeviceAlarm_Prefix.pch -c "/Users/alpascual/Pet Projects/DeviceAlarm/iPad/AppDelegate_iPad.m" -o "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/AppDelegate_iPad.o"0#
+
+CCompileC build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/AppDelegate_iPhone.o "/Users/alpascual/Pet Projects/DeviceAlarm/iPhone/AppDelegate_iPhone.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s320132312.528268
+e320132312.630205
+r1
+xCompileC
+xbuild/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/AppDelegate_iPhone.o
+x/Users/alpascual/Pet Projects/DeviceAlarm/iPhone/AppDelegate_iPhone.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/alpascual/Pet Projects/DeviceAlarm/iPhone/AppDelegate_iPhone.m320132312#320132312#0(0"0(0#0#69"/Users/alpascual/Pet Projects/DeviceAlarm/iPhone/AppDelegate_iPhone.m8619914848#2084"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-generated-files.hmap" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-project-headers.hmap" "-F/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DeviceAlarm_Prefix-fymdfmlzinsskwfkjmgwpobxvdyx/DeviceAlarm_Prefix.pch -c "/Users/alpascual/Pet Projects/DeviceAlarm/iPhone/AppDelegate_iPhone.m" -o "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/AppDelegate_iPhone.o"0#
+
+CCompileC build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/LocationController.o "/Users/alpascual/Pet Projects/DeviceAlarm/LocationController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s319832694.891525
+e319832695.579628
+r1
+xCompileC
+xbuild/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/LocationController.o
+x/Users/alpascual/Pet Projects/DeviceAlarm/LocationController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/alpascual/Pet Projects/DeviceAlarm/LocationController.m319832694#319832695#0(0"0(0#0#62"/Users/alpascual/Pet Projects/DeviceAlarm/LocationController.m8605735776#2077"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-generated-files.hmap" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-project-headers.hmap" "-F/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DeviceAlarm_Prefix-fymdfmlzinsskwfkjmgwpobxvdyx/DeviceAlarm_Prefix.pch -c "/Users/alpascual/Pet Projects/DeviceAlarm/LocationController.m" -o "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/LocationController.o"0#
+
+CCompileC build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/MainController.o "/Users/alpascual/Pet Projects/DeviceAlarm/MainController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s320132449.518844
+e320132449.609785
+r1
+xCompileC
+xbuild/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/MainController.o
+x/Users/alpascual/Pet Projects/DeviceAlarm/MainController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/alpascual/Pet Projects/DeviceAlarm/MainController.m320132449#320132449#0(0"0(0#0#58"/Users/alpascual/Pet Projects/DeviceAlarm/MainController.m8606304672#2069"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-generated-files.hmap" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-project-headers.hmap" "-F/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DeviceAlarm_Prefix-fymdfmlzinsskwfkjmgwpobxvdyx/DeviceAlarm_Prefix.pch -c "/Users/alpascual/Pet Projects/DeviceAlarm/MainController.m" -o "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/MainController.o"0#
+
+CCompileC build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/PlaySound.o "/Users/alpascual/Pet Projects/DeviceAlarm/PlaySound.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s318720751.910009
+e318720752.055202
+r1
+xCompileC
+xbuild/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/PlaySound.o
+x/Users/alpascual/Pet Projects/DeviceAlarm/PlaySound.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/alpascual/Pet Projects/DeviceAlarm/PlaySound.m318720751#318720752#0(0"0(0#0#53"/Users/alpascual/Pet Projects/DeviceAlarm/PlaySound.m8678114720#2059"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-generated-files.hmap" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-project-headers.hmap" "-F/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DeviceAlarm_Prefix-fymdfmlzinsskwfkjmgwpobxvdyx/DeviceAlarm_Prefix.pch -c "/Users/alpascual/Pet Projects/DeviceAlarm/PlaySound.m" -o "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/PlaySound.o"0#
+
+CCompileC build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/SettingsController.o "/Users/alpascual/Pet Projects/DeviceAlarm/SettingsController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s319846861.178149
+e319846861.303729
+r1
+xCompileC
+xbuild/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/SettingsController.o
+x/Users/alpascual/Pet Projects/DeviceAlarm/SettingsController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/alpascual/Pet Projects/DeviceAlarm/SettingsController.m319846861#319846861#0(0"0(0#0#62"/Users/alpascual/Pet Projects/DeviceAlarm/SettingsController.m8620201792#2077"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-generated-files.hmap" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-project-headers.hmap" "-F/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DeviceAlarm_Prefix-fymdfmlzinsskwfkjmgwpobxvdyx/DeviceAlarm_Prefix.pch -c "/Users/alpascual/Pet Projects/DeviceAlarm/SettingsController.m" -o "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/SettingsController.o"0#
+
+CCompileC build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/iPadController.o "/Users/alpascual/Pet Projects/DeviceAlarm/iPadController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/iPadSettingsController.o "/Users/alpascual/Pet Projects/DeviceAlarm/iPadSettingsController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/main.o "/Users/alpascual/Pet Projects/DeviceAlarm/Shared/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s317851229.737195
+e317851229.799971
+r1
+xCompileC
+xbuild/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/main.o
+x/Users/alpascual/Pet Projects/DeviceAlarm/Shared/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/alpascual/Pet Projects/DeviceAlarm/Shared/main.m317851229#317851229#0(0"0(0#0#55"/Users/alpascual/Pet Projects/DeviceAlarm/Shared/main.m8616298080#2056"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-generated-files.hmap" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-project-headers.hmap" "-F/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DeviceAlarm_Prefix-fymdfmlzinsskwfkjmgwpobxvdyx/DeviceAlarm_Prefix.pch -c "/Users/alpascual/Pet Projects/DeviceAlarm/Shared/main.m" -o "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/DeviceAlarm/AdsController.xib"
+s318722594.565349
+e318722596.017919
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/DeviceAlarm/AdsController.xib
+o2011-02-06 14:03:15.707 ibtool[7577:607] __CFServiceControllerBeginPBSLoadForLocalizations timed out while talking to pbs
+lSLF07#2@28"CompileXIB AdsController.xib318722594#318722596#0(122"2011-02-06 14:03:15.707 ibtool[7577:607] __CFServiceControllerBeginPBSLoadForLocalizations timed out while talking to pbs0(0#0#59"/Users/alpascual/Pet Projects/DeviceAlarm/AdsController.xib8680070272#595"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/AdsController.nib" "/Users/alpascual/Pet Projects/DeviceAlarm/AdsController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/DeviceAlarm/MainController.xib"
+r0
+
+CCompileXIB "/Users/alpascual/Pet Projects/DeviceAlarm/SettingsController.xib"
+s319839760.165224
+e319839760.628143
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/DeviceAlarm/SettingsController.xib
+lSLF07#2@33"CompileXIB SettingsController.xib319839760#319839760#0(0"0(0#0#64"/Users/alpascual/Pet Projects/DeviceAlarm/SettingsController.xib8615185632#605"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/SettingsController.nib" "/Users/alpascual/Pet Projects/DeviceAlarm/SettingsController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/DeviceAlarm/iPad/MainWindow_iPad.xib"
+s319846752.419061
+e319846752.879782
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/DeviceAlarm/iPad/MainWindow_iPad.xib
+lSLF07#2@35"CompileXIB iPad/MainWindow_iPad.xib319846752#319846752#0(0"0(0#0#66"/Users/alpascual/Pet Projects/DeviceAlarm/iPad/MainWindow_iPad.xib8618852224#604"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/MainWindow_iPad.nib" "/Users/alpascual/Pet Projects/DeviceAlarm/iPad/MainWindow_iPad.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/DeviceAlarm/iPadController.xib"
+r0
+
+CCompileXIB "/Users/alpascual/Pet Projects/DeviceAlarm/iPadMainController.xib"
+s320446367.814402
+e320446368.380725
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/DeviceAlarm/iPadMainController.xib
+lSLF07#2@33"CompileXIB iPadMainController.xib320446367#320446368#0(0"0(0#0#64"/Users/alpascual/Pet Projects/DeviceAlarm/iPadMainController.xib8616205472#605"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/iPadMainController.nib" "/Users/alpascual/Pet Projects/DeviceAlarm/iPadMainController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/DeviceAlarm/iPadSettingsController.xib"
+s320131064.213466
+e320131064.702638
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/DeviceAlarm/iPadSettingsController.xib
+lSLF07#2@37"CompileXIB iPadSettingsController.xib320131064#320131064#0(0"0(0#0#68"/Users/alpascual/Pet Projects/DeviceAlarm/iPadSettingsController.xib8603893664#613"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/iPadSettingsController.nib" "/Users/alpascual/Pet Projects/DeviceAlarm/iPadSettingsController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/DeviceAlarm/iPhone/../MainController.xib"
+s320132541.276717
+e320132541.687334
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/DeviceAlarm/iPhone/../MainController.xib
+lSLF07#2@39"CompileXIB iPhone/../MainController.xib320132541#320132541#0(0"0(0#0#70"/Users/alpascual/Pet Projects/DeviceAlarm/iPhone/../MainController.xib8618873440#607"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/MainController.nib" "/Users/alpascual/Pet Projects/DeviceAlarm/iPhone/../MainController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/DeviceAlarm/iPhone/../SettingsController.xib"
+s319840549.958173
+e319840550.512378
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/DeviceAlarm/iPhone/../SettingsController.xib
+lSLF07#2@43"CompileXIB iPhone/../SettingsController.xib319840549#319840550#0(0"0(0#0#74"/Users/alpascual/Pet Projects/DeviceAlarm/iPhone/../SettingsController.xib8616586208#615"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/SettingsController.nib" "/Users/alpascual/Pet Projects/DeviceAlarm/iPhone/../SettingsController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/DeviceAlarm/iPhone/MainWindow_iPhone.xib"
+s319846752.420774
+e319846752.866264
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/DeviceAlarm/iPhone/MainWindow_iPhone.xib
+lSLF07#2@39"CompileXIB iPhone/MainWindow_iPhone.xib319846752#319846752#0(0"0(0#0#70"/Users/alpascual/Pet Projects/DeviceAlarm/iPhone/MainWindow_iPhone.xib8618592960#610"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/MainWindow_iPhone.nib" "/Users/alpascual/Pet Projects/DeviceAlarm/iPhone/MainWindow_iPhone.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/DeviceAlarm.app/AlarmDisplay.png Resources/AlarmDisplay.png
+s318722594.566803
+e318722594.574562
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/DeviceAlarm.app/AlarmDisplay.png
+xResources/AlarmDisplay.png
+lSLF07#2@31"Copy Resources/AlarmDisplay.png318722594#318722594#0(0"0(0#0#68"/Users/alpascual/Pet Projects/DeviceAlarm/Resources/AlarmDisplay.png8679050848#503"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/DeviceAlarm/Resources/AlarmDisplay.png" "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app"0#
+
+CCpResource build/Debug-iphonesimulator/DeviceAlarm.app/Default.png Resources/Default.png
+s318722594.566241
+e318722594.578710
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/DeviceAlarm.app/Default.png
+xResources/Default.png
+lSLF07#2@26"Copy Resources/Default.png318722594#318722594#0(0"0(0#0#63"/Users/alpascual/Pet Projects/DeviceAlarm/Resources/Default.png8679413952#498"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/DeviceAlarm/Resources/Default.png" "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app"0#
+
+CCpResource build/Debug-iphonesimulator/DeviceAlarm.app/Icon-72.png Resources/Icon-72.png
+s319832694.846495
+e319832694.888031
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/DeviceAlarm.app/Icon-72.png
+xResources/Icon-72.png
+lSLF07#2@26"Copy Resources/Icon-72.png319832694#319832694#0(0"0(0#0#63"/Users/alpascual/Pet Projects/DeviceAlarm/Resources/Icon-72.png8604094272#498"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/DeviceAlarm/Resources/Icon-72.png" "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app"0#
+
+CCpResource build/Debug-iphonesimulator/DeviceAlarm.app/Icon.png Resources/Icon.png
+s319832694.847002
+e319832694.888523
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/DeviceAlarm.app/Icon.png
+xResources/Icon.png
+lSLF07#2@23"Copy Resources/Icon.png319832694#319832694#0(0"0(0#0#60"/Users/alpascual/Pet Projects/DeviceAlarm/Resources/Icon.png8602942016#495"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/DeviceAlarm/Resources/Icon.png" "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app"0#
+
+CCpResource build/Debug-iphonesimulator/DeviceAlarm.app/Icon@2x.png Resources/Icon@2x.png
+s319832694.847514
+e319832694.888255
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/DeviceAlarm.app/Icon@2x.png
+xResources/Icon@2x.png
+lSLF07#2@26"Copy Resources/Icon@2x.png319832694#319832694#0(0"0(0#0#63"/Users/alpascual/Pet Projects/DeviceAlarm/Resources/Icon@2x.png8603425856#498"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/DeviceAlarm/Resources/Icon@2x.png" "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app"0#
+
+CCpResource build/Debug-iphonesimulator/DeviceAlarm.app/alarm.wav Resources/alarm.wav
+s318720751.895005
+e318720751.907160
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/DeviceAlarm.app/alarm.wav
+xResources/alarm.wav
+lSLF07#2@24"Copy Resources/alarm.wav318720751#318720751#0(0"0(0#0#61"/Users/alpascual/Pet Projects/DeviceAlarm/Resources/alarm.wav8679402752#496"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/DeviceAlarm/Resources/alarm.wav" "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app"0#
+
+CCpResource build/Debug-iphonesimulator/DeviceAlarm.app/alarm1.gif Resources/alarm1.gif
+s319838132.334535
+e319838132.342329
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/DeviceAlarm.app/alarm1.gif
+xResources/alarm1.gif
+lSLF07#2@25"Copy Resources/alarm1.gif319838132#319838132#0(0"0(0#0#62"/Users/alpascual/Pet Projects/DeviceAlarm/Resources/alarm1.gif8607245984#497"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/DeviceAlarm/Resources/alarm1.gif" "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app"0#
+
+CCpResource build/Debug-iphonesimulator/DeviceAlarm.app/bigIcon.png Resources/bigIcon.png
+s319832694.845768
+e319832694.890580
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/DeviceAlarm.app/bigIcon.png
+xResources/bigIcon.png
+lSLF07#2@26"Copy Resources/bigIcon.png319832694#319832694#0(0"0(0#0#63"/Users/alpascual/Pet Projects/DeviceAlarm/Resources/bigIcon.png8607081888#498"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/DeviceAlarm/Resources/bigIcon.png" "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app"0#
+
+CCpResource build/Debug-iphonesimulator/DeviceAlarm.app/caralarm.wav Resources/caralarm.wav
+s318719166.537210
+e318719166.641974
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/DeviceAlarm.app/caralarm.wav
+xResources/caralarm.wav
+lSLF07#2@27"Copy Resources/caralarm.wav318719166#318719166#0(0"0(0#0#64"/Users/alpascual/Pet Projects/DeviceAlarm/Resources/caralarm.wav8667593504#499"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/DeviceAlarm/Resources/caralarm.wav" "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app"0#
+
+CCpResource build/Debug-iphonesimulator/DeviceAlarm.app/matrix.jpg Resources/matrix.jpg
+s319838132.336407
+e319838132.345096
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/DeviceAlarm.app/matrix.jpg
+xResources/matrix.jpg
+lSLF07#2@25"Copy Resources/matrix.jpg319838132#319838132#0(0"0(0#0#62"/Users/alpascual/Pet Projects/DeviceAlarm/Resources/matrix.jpg8607065024#497"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/DeviceAlarm/Resources/matrix.jpg" "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app"0#
+
+CDataModelVersionCompile "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/DeviceAlarm.momd" "/Users/alpascual/Pet Projects/DeviceAlarm/Shared/DeviceAlarm.xcdatamodeld"
+s317851229.736135
+e317851229.812235
+r1
+xDataModelVersionCompile
+x/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/DeviceAlarm.momd
+x/Users/alpascual/Pet Projects/DeviceAlarm/Shared/DeviceAlarm.xcdatamodeld
+lSLF07#2@116"DataModelVersionCompile build/Debug-iphonesimulator/DeviceAlarm.app/DeviceAlarm.momd Shared/DeviceAlarm.xcdatamodeld317851229#317851229#0(0"0(0#0#73"/Users/alpascual/Pet Projects/DeviceAlarm/Shared/DeviceAlarm.xcdatamodeld8599698816#420"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 "/Users/alpascual/Pet Projects/DeviceAlarm/Shared/DeviceAlarm.xcdatamodeld" "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/DeviceAlarm.momd"0#
+
+CGenerateDSYMFile "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app.dSYM" "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/DeviceAlarm"
+s320132449.639495
+e320132449.664286
+r1
+xGenerateDSYMFile
+x/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app.dSYM
+x/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/DeviceAlarm
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/DeviceAlarm.app.dSYM build/Debug-iphonesimulator/DeviceAlarm.app/DeviceAlarm320132449#320132449#0(0"0(0#0#97"/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/DeviceAlarm8619623200#410"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/DeviceAlarm" -o "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app.dSYM"0#
+
+CLd "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/DeviceAlarm" normal i386
+s320132449.609872
+e320132449.639396
+r1
+xLd
+x/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/DeviceAlarm
+xnormal
+xi386
+lSLF07#2@102"Link /Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/DeviceAlarm320132449#320132449#0(0"0(0#0#0"8622576704#1028"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator" "-F/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator" -filelist "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/Objects-normal/i386/DeviceAlarm.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework CoreLocation -framework iAd -framework AudioToolbox -o "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/DeviceAlarm"0#
+
+CProcessInfoPlistFile "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/Info.plist" DeviceAlarm-Info.plist
+s319832694.818087
+e319832694.845371
+r1
+xProcessInfoPlistFile
+x/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/Info.plist
+xDeviceAlarm-Info.plist
+lSLF07#2@30"Process DeviceAlarm-Info.plist319832694#319832694#0(0"0(0#0#64"/Users/alpascual/Pet Projects/DeviceAlarm/DeviceAlarm-Info.plist4913256135273047040#506"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility DeviceAlarm-Info.plist -genpkginfo "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app/Info.plist"0#
+
+CProcessPCH /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DeviceAlarm_Prefix-fymdfmlzinsskwfkjmgwpobxvdyx/DeviceAlarm_Prefix.pch.gch DeviceAlarm_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s317851229.020784
+e317851229.736037
+r1
+xProcessPCH
+x/var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DeviceAlarm_Prefix-fymdfmlzinsskwfkjmgwpobxvdyx/DeviceAlarm_Prefix.pch.gch
+xDeviceAlarm_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile DeviceAlarm_Prefix.pch317851229#317851229#0(0"0(0#0#64"/Users/alpascual/Pet Projects/DeviceAlarm/DeviceAlarm_Prefix.pch8607984416#1932"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-generated-files.hmap" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DeviceAlarm-project-headers.hmap" "-F/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/DeviceAlarm/build/DeviceAlarm.build/Debug-iphonesimulator/DeviceAlarm.build/DerivedSources" -c "/Users/alpascual/Pet Projects/DeviceAlarm/DeviceAlarm_Prefix.pch" -o /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DeviceAlarm_Prefix-fymdfmlzinsskwfkjmgwpobxvdyx/DeviceAlarm_Prefix.pch.gch0#
+
+CTouch "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app"
+s320446368.382392
+e320446368.390223
+r1
+xTouch
+x/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app
+lSLF07#2@91"Touch /Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app320446368#320446368#0(0"0(0#0#0"8622550336#292"    cd "/Users/alpascual/Pet Projects/DeviceAlarm"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/alpascual/Pet Projects/DeviceAlarm/build/Debug-iphonesimulator/DeviceAlarm.app"0#
+

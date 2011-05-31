@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* AppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate_iPad.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2819307D112F81BE00ECF9B4 /* DeviceAlarm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2819307C112F81BE00ECF9B4 /* DeviceAlarm.xcdatamodeld */; };
+		2860E38A111B897F00E27156 /* AppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E388111B897F00E27156 /* AppDelegate_iPhone.m */; };
+		2860E38B111B897F00E27156 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E389111B897F00E27156 /* MainWindow_iPhone.xib */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow_iPad.xib */; };
+		28EEBFDD1118E19E00187D67 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EEBFDC1118E19E00187D67 /* CoreData.framework */; };
+		28EEC04B1118E28000187D67 /* AppDelegate_Shared.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EEC04A1118E28000187D67 /* AppDelegate_Shared.m */; };
+		760031F912FD145A009E4D8F /* PlaySound.m in Sources */ = {isa = PBXBuildFile; fileRef = 760031F812FD145A009E4D8F /* PlaySound.m */; };
+		760031FD12FD1541009E4D8F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760031FC12FD1541009E4D8F /* AudioToolbox.framework */; };
+		760032E712FF4A8B009E4D8F /* alarm.wav in Resources */ = {isa = PBXBuildFile; fileRef = 760032E612FF4A8B009E4D8F /* alarm.wav */; };
+		7600330F12FF4CD2009E4D8F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7600330E12FF4CD2009E4D8F /* Default.png */; };
+		7600331112FF4D58009E4D8F /* AlarmDisplay.png in Resources */ = {isa = PBXBuildFile; fileRef = 7600331012FF4D58009E4D8F /* AlarmDisplay.png */; };
+		7600334E12FF55A1009E4D8F /* bigIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7600334A12FF55A1009E4D8F /* bigIcon.png */; };
+		7600334F12FF55A1009E4D8F /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 7600334B12FF55A1009E4D8F /* Icon-72.png */; };
+		7600335012FF55A1009E4D8F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7600334C12FF55A1009E4D8F /* Icon.png */; };
+		7600335112FF55A1009E4D8F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7600334D12FF55A1009E4D8F /* Icon@2x.png */; };
+		767BD26813104341008E3359 /* alarm1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 767BD26713104341008E3359 /* alarm1.gif */; };
+		767BD26B131043F9008E3359 /* matrix.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 767BD26A131043F9008E3359 /* matrix.jpg */; };
+		767BD27F131059CB008E3359 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 767BD27D131059CB008E3359 /* SettingsController.m */; };
+		767BD280131059CB008E3359 /* SettingsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 767BD27E131059CB008E3359 /* SettingsController.xib */; };
+		767BD29213105E74008E3359 /* iPadSettingsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 767BD29013105E74008E3359 /* iPadSettingsController.xib */; };
+		767BD2CE131063BD008E3359 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 767BD2CC131063BD008E3359 /* MainController.m */; };
+		767BD2CF131063BD008E3359 /* MainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 767BD2CD131063BD008E3359 /* MainController.xib */; };
+		767BD2D41310641F008E3359 /* iPadMainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 767BD2D21310641F008E3359 /* iPadMainController.xib */; };
+		76B79AE612F20E57002B60DE /* LocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B79AE512F20E57002B60DE /* LocationController.m */; };
+		76B79AE912F20E8E002B60DE /* AccelerometerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B79AE812F20E8E002B60DE /* AccelerometerController.m */; };
+		76B79AF712F21368002B60DE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B79AF612F21368002B60DE /* CoreLocation.framework */; };
+		76B79B3E12F22F6F002B60DE /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B79B3D12F22F6F002B60DE /* iAd.framework */; };
+		76B79B5D12F2329A002B60DE /* AdsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B79B5B12F2329A002B60DE /* AdsController.m */; };
+		76B79B5E12F2329A002B60DE /* AdsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76B79B5C12F2329A002B60DE /* AdsController.xib */; };
+		76E133A6133E89860051F697 /* iPadAdsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76E133A5133E89860051F697 /* iPadAdsController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* AppDelegate_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate_iPad.h; path = iPad/AppDelegate_iPad.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate_iPad.m; path = iPad/AppDelegate_iPad.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* DeviceAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2860E387111B897F00E27156 /* AppDelegate_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_iPhone.h; sourceTree = "<group>"; };
+		2860E388111B897F00E27156 /* AppDelegate_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_iPhone.m; sourceTree = "<group>"; };
+		2860E389111B897F00E27156 /* MainWindow_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		2870939E111907710040F596 /* DeviceAlarm.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = DeviceAlarm.xcdatamodel; sourceTree = "<group>"; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow_iPad.xib; path = iPad/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		28EEBFDC1118E19E00187D67 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		28EEC0491118E28000187D67 /* AppDelegate_Shared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate_Shared.h; path = Shared/AppDelegate_Shared.h; sourceTree = "<group>"; };
+		28EEC04A1118E28000187D67 /* AppDelegate_Shared.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate_Shared.m; path = Shared/AppDelegate_Shared.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Shared/main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* DeviceAlarm_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceAlarm_Prefix.pch; sourceTree = "<group>"; };
+		760031F712FD145A009E4D8F /* PlaySound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaySound.h; sourceTree = "<group>"; };
+		760031F812FD145A009E4D8F /* PlaySound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaySound.m; sourceTree = "<group>"; };
+		760031FC12FD1541009E4D8F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		760031FE12FEF54B009E4D8F /* AlertDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertDelegate.h; sourceTree = "<group>"; };
+		7600326B12FF3F84009E4D8F /* SoundDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundDelegate.h; sourceTree = "<group>"; };
+		760032E612FF4A8B009E4D8F /* alarm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = alarm.wav; path = Resources/alarm.wav; sourceTree = "<group>"; };
+		7600330E12FF4CD2009E4D8F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7600331012FF4D58009E4D8F /* AlarmDisplay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AlarmDisplay.png; sourceTree = "<group>"; };
+		7600334A12FF55A1009E4D8F /* bigIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigIcon.png; sourceTree = "<group>"; };
+		7600334B12FF55A1009E4D8F /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		7600334C12FF55A1009E4D8F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		7600334D12FF55A1009E4D8F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		7600336012FF55C8009E4D8F /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		767BD26713104341008E3359 /* alarm1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = alarm1.gif; sourceTree = "<group>"; };
+		767BD26A131043F9008E3359 /* matrix.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = matrix.jpg; sourceTree = "<group>"; };
+		767BD27C131059CB008E3359 /* SettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsController.h; sourceTree = "<group>"; };
+		767BD27D131059CB008E3359 /* SettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsController.m; sourceTree = "<group>"; };
+		767BD27E131059CB008E3359 /* SettingsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SettingsController.xib; path = ../SettingsController.xib; sourceTree = "<group>"; };
+		767BD29013105E74008E3359 /* iPadSettingsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iPadSettingsController.xib; sourceTree = "<group>"; };
+		767BD2CB131063BD008E3359 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		767BD2CC131063BD008E3359 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		767BD2CD131063BD008E3359 /* MainController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainController.xib; path = ../MainController.xib; sourceTree = "<group>"; };
+		767BD2D21310641F008E3359 /* iPadMainController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iPadMainController.xib; sourceTree = "<group>"; };
+		76B79AE412F20E57002B60DE /* LocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationController.h; sourceTree = "<group>"; };
+		76B79AE512F20E57002B60DE /* LocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationController.m; sourceTree = "<group>"; };
+		76B79AE712F20E8E002B60DE /* AccelerometerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometerController.h; sourceTree = "<group>"; };
+		76B79AE812F20E8E002B60DE /* AccelerometerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometerController.m; sourceTree = "<group>"; };
+		76B79AF612F21368002B60DE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		76B79B3D12F22F6F002B60DE /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		76B79B5A12F2329A002B60DE /* AdsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdsController.h; sourceTree = "<group>"; };
+		76B79B5B12F2329A002B60DE /* AdsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdsController.m; sourceTree = "<group>"; };
+		76B79B5C12F2329A002B60DE /* AdsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdsController.xib; sourceTree = "<group>"; };
+		76E133A5133E89860051F697 /* iPadAdsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPadAdsController.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* DeviceAlarm-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DeviceAlarm-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				28EEBFDD1118E19E00187D67 /* CoreData.framework in Frameworks */,
+				76B79AF712F21368002B60DE /* CoreLocation.framework in Frameworks */,
+				76B79B3E12F22F6F002B60DE /* iAd.framework in Frameworks */,
+				760031FD12FD1541009E4D8F /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* DeviceAlarm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2860E386111B897F00E27156 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				2860E387111B897F00E27156 /* AppDelegate_iPhone.h */,
+				2860E388111B897F00E27156 /* AppDelegate_iPhone.m */,
+				2860E389111B897F00E27156 /* MainWindow_iPhone.xib */,
+				767BD27E131059CB008E3359 /* SettingsController.xib */,
+				767BD2CD131063BD008E3359 /* MainController.xib */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		28EEBF621118D79A00187D67 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				760032E612FF4A8B009E4D8F /* alarm.wav */,
+				7600326612FF3EB0009E4D8F /* Resources */,
+				2819307C112F81BE00ECF9B4 /* DeviceAlarm.xcdatamodeld */,
+				28EEC0491118E28000187D67 /* AppDelegate_Shared.h */,
+				28EEC04A1118E28000187D67 /* AppDelegate_Shared.m */,
+				8D1107310486CEB800E47090 /* DeviceAlarm-Info.plist */,
+				76B79AE412F20E57002B60DE /* LocationController.h */,
+				76B79AE512F20E57002B60DE /* LocationController.m */,
+				76B79AE712F20E8E002B60DE /* AccelerometerController.h */,
+				76B79AE812F20E8E002B60DE /* AccelerometerController.m */,
+				76B79B5A12F2329A002B60DE /* AdsController.h */,
+				76B79B5B12F2329A002B60DE /* AdsController.m */,
+				76B79B5C12F2329A002B60DE /* AdsController.xib */,
+				760031F712FD145A009E4D8F /* PlaySound.h */,
+				760031F812FD145A009E4D8F /* PlaySound.m */,
+				760031FE12FEF54B009E4D8F /* AlertDelegate.h */,
+				7600326B12FF3F84009E4D8F /* SoundDelegate.h */,
+				767BD27C131059CB008E3359 /* SettingsController.h */,
+				767BD27D131059CB008E3359 /* SettingsController.m */,
+				767BD2CB131063BD008E3359 /* MainController.h */,
+				767BD2CC131063BD008E3359 /* MainController.m */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				2860E386111B897F00E27156 /* iPhone */,
+				29B97317FDCFA39411CA2CEA /* iPad */,
+				28EEBF621118D79A00187D67 /* Shared */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				76B79AF612F21368002B60DE /* CoreLocation.framework */,
+				76B79B3D12F22F6F002B60DE /* iAd.framework */,
+				760031FC12FD1541009E4D8F /* AudioToolbox.framework */,
+				7600336012FF55C8009E4D8F /* Entitlements.plist */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* DeviceAlarm_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* AppDelegate_iPad.h */,
+				1D3623250D0F684500981E51 /* AppDelegate_iPad.m */,
+				28AD733E0D9D9553002E5188 /* MainWindow_iPad.xib */,
+				767BD29013105E74008E3359 /* iPadSettingsController.xib */,
+				767BD2D21310641F008E3359 /* iPadMainController.xib */,
+				76E133A5133E89860051F697 /* iPadAdsController.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				28EEBFDC1118E19E00187D67 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7600326612FF3EB0009E4D8F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				767BD26A131043F9008E3359 /* matrix.jpg */,
+				767BD26713104341008E3359 /* alarm1.gif */,
+				7600334A12FF55A1009E4D8F /* bigIcon.png */,
+				7600334B12FF55A1009E4D8F /* Icon-72.png */,
+				7600334C12FF55A1009E4D8F /* Icon.png */,
+				7600334D12FF55A1009E4D8F /* Icon@2x.png */,
+				7600331012FF4D58009E4D8F /* AlarmDisplay.png */,
+				7600330E12FF4CD2009E4D8F /* Default.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* DeviceAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DeviceAlarm" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeviceAlarm;
+			productName = DeviceAlarm;
+			productReference = 1D6058910D05DD3D006BFB54 /* DeviceAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DeviceAlarm" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* DeviceAlarm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow_iPad.xib in Resources */,
+				2860E38B111B897F00E27156 /* MainWindow_iPhone.xib in Resources */,
+				76B79B5E12F2329A002B60DE /* AdsController.xib in Resources */,
+				760032E712FF4A8B009E4D8F /* alarm.wav in Resources */,
+				7600330F12FF4CD2009E4D8F /* Default.png in Resources */,
+				7600331112FF4D58009E4D8F /* AlarmDisplay.png in Resources */,
+				7600334E12FF55A1009E4D8F /* bigIcon.png in Resources */,
+				7600334F12FF55A1009E4D8F /* Icon-72.png in Resources */,
+				7600335012FF55A1009E4D8F /* Icon.png in Resources */,
+				7600335112FF55A1009E4D8F /* Icon@2x.png in Resources */,
+				767BD26813104341008E3359 /* alarm1.gif in Resources */,
+				767BD26B131043F9008E3359 /* matrix.jpg in Resources */,
+				767BD280131059CB008E3359 /* SettingsController.xib in Resources */,
+				767BD29213105E74008E3359 /* iPadSettingsController.xib in Resources */,
+				767BD2CF131063BD008E3359 /* MainController.xib in Resources */,
+				767BD2D41310641F008E3359 /* iPadMainController.xib in Resources */,
+				76E133A6133E89860051F697 /* iPadAdsController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AppDelegate_iPad.m in Sources */,
+				28EEC04B1118E28000187D67 /* AppDelegate_Shared.m in Sources */,
+				2819307D112F81BE00ECF9B4 /* DeviceAlarm.xcdatamodeld in Sources */,
+				2860E38A111B897F00E27156 /* AppDelegate_iPhone.m in Sources */,
+				76B79AE612F20E57002B60DE /* LocationController.m in Sources */,
+				76B79AE912F20E8E002B60DE /* AccelerometerController.m in Sources */,
+				76B79B5D12F2329A002B60DE /* AdsController.m in Sources */,
+				760031F912FD145A009E4D8F /* PlaySound.m in Sources */,
+				767BD27F131059CB008E3359 /* SettingsController.m in Sources */,
+				767BD2CE131063BD008E3359 /* MainController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DeviceAlarm_Prefix.pch;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "DeviceAlarm-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = DeviceAlarm;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Pet Projects/DeviceAlarm/Entitlements.plist";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DeviceAlarm_Prefix.pch;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "DeviceAlarm-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = DeviceAlarm;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7600336912FF563C009E4D8F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribution;
+		};
+		7600336A12FF563C009E4D8F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DeviceAlarm_Prefix.pch;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "DeviceAlarm-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = DeviceAlarm;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DeviceAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				7600336A12FF563C009E4D8F /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DeviceAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				7600336912FF563C009E4D8F /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2819307C112F81BE00ECF9B4 /* DeviceAlarm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2870939E111907710040F596 /* DeviceAlarm.xcdatamodel */,
+			);
+			currentVersion = 2870939E111907710040F596 /* DeviceAlarm.xcdatamodel */;
+			name = DeviceAlarm.xcdatamodeld;
+			path = Shared/DeviceAlarm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
