@@ -9,32 +9,13 @@
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 
-
-#import "LocationController.h"
-#import "AccelerometerController.h"
-#import "AdsController.h"
-#import "AlertDelegate.h"
-#import "PlaySound.h"
-#import "SoundDelegate.h"
-#import "SettingsController.h"
-#import "MainController.h"
+@class RootViewController;
 
 
-@interface AppDelegate_Shared : NSObject <UIApplicationDelegate, AlertDelegate, SoundDelegate> {
+@interface AppDelegate_Shared : UIResponder <UIApplicationDelegate> {
     
     UIWindow *window;
-	UISwitch *mySwitch;
-	AdsController *AdsView;
 	
-	LocationController *locationControl;
-	AccelerometerController *accelerometerControl;
-	
-	UINavigationController *navigationController;
-	
-	PlaySound *sounds;
-	UIBarButtonItem *settingsBtn;
-	
-	MainController *mainController;
     
 @private
     NSManagedObjectContext *managedObjectContext_;
@@ -43,28 +24,12 @@
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet UISwitch *mySwitch;
-@property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
-@property (nonatomic, retain) IBOutlet UIBarButtonItem *settingsBtn;
+@property (strong, nonatomic) RootViewController *viewController;
+@property (strong, nonatomic) UINavigationController *navigationController;
 
-@property (nonatomic, retain, readonly) NSManagedObjectContext *managedObjectContext;
-@property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;
-@property (nonatomic, retain, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 
-@property (nonatomic, retain) LocationController *locationControl;
-@property (nonatomic, retain) AccelerometerController *accelerometerControl;
-@property (nonatomic, retain) PlaySound *sounds;
 
-@property (nonatomic, retain) MainController *mainController;
 
-@property (nonatomic, retain) IBOutlet AdsController *AdsView;
-
-- (NSURL *)applicationDocumentsDirectory;
-- (void)saveContext;
-
-- (IBAction) switchChanged;
-
-- (IBAction) startCalled;
 
 @end
 

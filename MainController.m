@@ -17,6 +17,8 @@
 @synthesize AdsView;
 @synthesize phoneNumber;
 @synthesize settingsButton;
+@synthesize highlightTimer;
+@synthesize onAndOff;
 
 
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -41,8 +43,53 @@
 	{
         self.settingsButton.hidden = YES;
     }*/
+    
+    // check if the pin is set, if not call the view to set it
+    NSUserDefaults *myPrefs = [NSUserDefaults standardUserDefaults];
+    if ( [myPrefs stringForKey:@"Pin"] == nil )
+    {
+        //  set timer
+        self.highlightTimer = [NSTimer scheduledTimerWithTimeInterval: 1.0 target: self selector: @selector(timerCallback:) userInfo: nil repeats: NO];
+        
+          
+    }
 }
 
+- (void)timerCallback:(NSTimer *)timer {
+    
+    [self changedPin];    
+}
+
+- (BOOL)pinView:(GCPINViewController *)pinView validateCode:(NSString *)code
+{
+    NSUserDefaults *myPrefs = [NSUserDefaults standardUserDefaults];
+    
+    NSString *storedPin = [myPrefs objectForKey:@"Pin"];
+    
+    if ( [storedPin isEqualToString:code] == YES )
+    {
+        
+        if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+        {            
+            [self dismissModalViewControllerAnimated:YES];            
+            
+        }
+        
+        else
+        {
+            //[self.navigationController popToViewController:[[self.navigationController viewControllers] objectAtIndex:1] animated:YES];
+            [self.navigationController popViewControllerAnimated:YES];
+        }
+        
+        // calling the delegate
+        [self AlarmIsDisabled];
+        
+        return YES;
+        
+    }
+    
+    return NO;
+}
 
 /*
 // Override to allow orientations other than the default portrait orientation.
@@ -113,24 +160,26 @@
 		[self.accelerometerControl start];
 		
 		
-		
-		// iAds requires a View instead of a Window
-		if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
-		{
-            if ( self.AdsView == nil )
-                self.AdsView = [[AdsController alloc] initWithNibName:@"iPadAdsController" bundle:nil];
+		// Show the password screen
+		GCPINViewController *pinView = [[[GCPINViewController alloc] initWithNibName:@"PINViewDefault" bundle:nil] autorelease];
+        
+        pinView.titleLabel = @"Enter the correct Pin to disable";
+        
+        pinView.delegate = self;
+        
+        if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+        {  
+            pinView.modalPresentationStyle = UIModalPresentationFormSheet;
+            pinView.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+            [self presentModalViewController:pinView animated:YES];			
+            [self dismissModalViewControllerAnimated:YES];
+        }
+        else
+        {
+            [self.navigationController pushViewController:pinView animated:YES];
             
-			self.AdsView.modalPresentationStyle = UIModalPresentationFormSheet;
-			self.AdsView.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
-			[self.AdsView presentModalViewController:self.AdsView animated:YES];			
-		}
-		else
-		{
-            if ( self.AdsView == nil )
-                self.AdsView = [[AdsController alloc] initWithNibName:@"AdsController" bundle:nil];
-            
-			[self.navigationController pushViewController:self.AdsView animated:YES];
-		}
+        } 
+       
 	}
 	else {
 		[self.locationControl stop];
@@ -143,6 +192,35 @@
 		self.accelerometerControl = nil;
 	}
 	
+}
+
+-(void) AlarmIsDisabled
+{
+    // Called when the alarm is disabled
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+    {        
+        [self.AdsView dismissModalViewControllerAnimated:YES];
+    }
+    
+    [self.sounds release];
+    self.sounds = nil;
+    
+    [self.locationControl stop];
+    [self.accelerometerControl stop];
+    
+    [self.locationControl release];
+    [self.accelerometerControl release];
+    
+    self.locationControl = nil;
+    self.accelerometerControl = nil;
+    
+  
+    self.onAndOff.userInteractionEnabled = NO;
+    // disable the alarm    
+    [self.onAndOff setOn:FALSE animated:YES];
+    self.onAndOff.on = FALSE;
+    self.onAndOff.userInteractionEnabled = YES;
+    
 }
 
 - (void) moveHappen
@@ -187,32 +265,25 @@
     self.phoneNumber = phone;
 }
 
-/*- (IBAction) startCalled
+- (IBAction) changedPin
 {
-	
-	// iAds requires a View instead of a Window
-	if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
-	{
-		self.mainController = [[MainController alloc] initWithNibName:@"iPadMainController" bundle:nil];
-		
-		self.mainController.modalPresentationStyle = UIModalPresentationFullScreen;
-		self.mainController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
-		[self.mainController presentModalViewController:self.mainController animated:YES];
-		
-		[self.window addSubview: self.mainController.view];
-		[self.window makeKeyAndVisible];
-	}
-	else
-	{
-		self.mainController = [[MainController alloc] initWithNibName:@"MainController" bundle:nil];
-		if ( self.navigationController == nil )
-			self.navigationController = [[UINavigationController alloc] initWithRootViewController:self.mainController];
-		
-		[self.window addSubview: [navigationController view]];
-		[self.window makeKeyAndVisible];
-		
-	}
-}*/
+    GCPINViewController *pinView = [[[GCPINViewController alloc] initWithNibName:@"PINViewDefault" bundle:nil] autorelease];
+    
+    pinView.delegate = self;
+    
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+    {  
+        pinView.modalPresentationStyle = UIModalPresentationFormSheet;
+        pinView.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+        
+        [self presentModalViewController:pinView animated:YES];				
+    }
+    else
+    {
+        [self.navigationController pushViewController:pinView animated:YES];
+        
+    } 
+}
 
 
 @end

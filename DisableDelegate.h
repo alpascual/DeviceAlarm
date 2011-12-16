@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol DisableDelegate <NSObject>
+@protocol DisableDelegate
+
+-(void) AlarmIsDisabled;
 
 @end

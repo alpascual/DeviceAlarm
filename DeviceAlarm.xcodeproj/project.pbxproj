@@ -3,16 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D3623260D0F684500981E51 /* AppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate_iPad.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		2819307D112F81BE00ECF9B4 /* DeviceAlarm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2819307C112F81BE00ECF9B4 /* DeviceAlarm.xcdatamodeld */; };
-		2860E38A111B897F00E27156 /* AppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E388111B897F00E27156 /* AppDelegate_iPhone.m */; };
 		2860E38B111B897F00E27156 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E389111B897F00E27156 /* MainWindow_iPhone.xib */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow_iPad.xib */; };
@@ -42,16 +40,17 @@
 		76B79B5D12F2329A002B60DE /* AdsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B79B5B12F2329A002B60DE /* AdsController.m */; };
 		76B79B5E12F2329A002B60DE /* AdsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76B79B5C12F2329A002B60DE /* AdsController.xib */; };
 		76E133A6133E89860051F697 /* iPadAdsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76E133A5133E89860051F697 /* iPadAdsController.xib */; };
+		76EC9A3C144A39D80085B6E3 /* GCPINViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EC9A38144A39D80085B6E3 /* GCPINViewController.m */; };
+		76EC9A3D144A39D80085B6E3 /* PINBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 76EC9A39144A39D80085B6E3 /* PINBox.png */; };
+		76EC9A3E144A39D80085B6E3 /* PINBox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76EC9A3A144A39D80085B6E3 /* PINBox@2x.png */; };
+		76EC9A3F144A39D80085B6E3 /* PINViewDefault.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76EC9A3B144A39D80085B6E3 /* PINViewDefault.xib */; };
+		76EC9A48144A480E0085B6E3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EC9A47144A480E0085B6E3 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D3623240D0F684500981E51 /* AppDelegate_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate_iPad.h; path = iPad/AppDelegate_iPad.h; sourceTree = "<group>"; };
-		1D3623250D0F684500981E51 /* AppDelegate_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate_iPad.m; path = iPad/AppDelegate_iPad.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* DeviceAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		2860E387111B897F00E27156 /* AppDelegate_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_iPhone.h; sourceTree = "<group>"; };
-		2860E388111B897F00E27156 /* AppDelegate_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_iPhone.m; sourceTree = "<group>"; };
 		2860E389111B897F00E27156 /* MainWindow_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_iPhone.xib; sourceTree = "<group>"; };
 		2870939E111907710040F596 /* DeviceAlarm.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = DeviceAlarm.xcdatamodel; sourceTree = "<group>"; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -94,6 +93,14 @@
 		76B79B5B12F2329A002B60DE /* AdsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdsController.m; sourceTree = "<group>"; };
 		76B79B5C12F2329A002B60DE /* AdsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdsController.xib; sourceTree = "<group>"; };
 		76E133A5133E89860051F697 /* iPadAdsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPadAdsController.xib; sourceTree = "<group>"; };
+		76EC9A37144A39D80085B6E3 /* GCPINViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCPINViewController.h; path = pinview/GCPINViewController.h; sourceTree = "<group>"; };
+		76EC9A38144A39D80085B6E3 /* GCPINViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCPINViewController.m; path = pinview/GCPINViewController.m; sourceTree = "<group>"; };
+		76EC9A39144A39D80085B6E3 /* PINBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PINBox.png; path = pinview/PINBox.png; sourceTree = "<group>"; };
+		76EC9A3A144A39D80085B6E3 /* PINBox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PINBox@2x.png"; path = "pinview/PINBox@2x.png"; sourceTree = "<group>"; };
+		76EC9A3B144A39D80085B6E3 /* PINViewDefault.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PINViewDefault.xib; path = pinview/PINViewDefault.xib; sourceTree = "<group>"; };
+		76EC9A46144A480E0085B6E3 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		76EC9A47144A480E0085B6E3 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		76EC9A49144B89C10085B6E3 /* DisableDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisableDelegate.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* DeviceAlarm-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DeviceAlarm-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,8 +133,6 @@
 		2860E386111B897F00E27156 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
-				2860E387111B897F00E27156 /* AppDelegate_iPhone.h */,
-				2860E388111B897F00E27156 /* AppDelegate_iPhone.m */,
 				2860E389111B897F00E27156 /* MainWindow_iPhone.xib */,
 				767BD27E131059CB008E3359 /* SettingsController.xib */,
 				767BD2CD131063BD008E3359 /* MainController.xib */,
@@ -159,6 +164,9 @@
 				767BD27D131059CB008E3359 /* SettingsController.m */,
 				767BD2CB131063BD008E3359 /* MainController.h */,
 				767BD2CC131063BD008E3359 /* MainController.m */,
+				76EC9A46144A480E0085B6E3 /* RootViewController.h */,
+				76EC9A47144A480E0085B6E3 /* RootViewController.m */,
+				76EC9A49144B89C10085B6E3 /* DisableDelegate.h */,
 			);
 			name = Shared;
 			sourceTree = "<group>";
@@ -166,6 +174,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				76EC9A36144A39B30085B6E3 /* PinView */,
 				2860E386111B897F00E27156 /* iPhone */,
 				29B97317FDCFA39411CA2CEA /* iPad */,
 				28EEBF621118D79A00187D67 /* Shared */,
@@ -192,8 +201,6 @@
 		29B97317FDCFA39411CA2CEA /* iPad */ = {
 			isa = PBXGroup;
 			children = (
-				1D3623240D0F684500981E51 /* AppDelegate_iPad.h */,
-				1D3623250D0F684500981E51 /* AppDelegate_iPad.m */,
 				28AD733E0D9D9553002E5188 /* MainWindow_iPad.xib */,
 				767BD29013105E74008E3359 /* iPadSettingsController.xib */,
 				767BD2D21310641F008E3359 /* iPadMainController.xib */,
@@ -228,6 +235,18 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		76EC9A36144A39B30085B6E3 /* PinView */ = {
+			isa = PBXGroup;
+			children = (
+				76EC9A37144A39D80085B6E3 /* GCPINViewController.h */,
+				76EC9A38144A39D80085B6E3 /* GCPINViewController.m */,
+				76EC9A39144A39D80085B6E3 /* PINBox.png */,
+				76EC9A3A144A39D80085B6E3 /* PINBox@2x.png */,
+				76EC9A3B144A39D80085B6E3 /* PINViewDefault.xib */,
+			);
+			name = PinView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -253,8 +272,11 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DeviceAlarm" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -294,6 +316,9 @@
 				767BD2CF131063BD008E3359 /* MainController.xib in Resources */,
 				767BD2D41310641F008E3359 /* iPadMainController.xib in Resources */,
 				76E133A6133E89860051F697 /* iPadAdsController.xib in Resources */,
+				76EC9A3D144A39D80085B6E3 /* PINBox.png in Resources */,
+				76EC9A3E144A39D80085B6E3 /* PINBox@2x.png in Resources */,
+				76EC9A3F144A39D80085B6E3 /* PINViewDefault.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,16 +330,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				1D3623260D0F684500981E51 /* AppDelegate_iPad.m in Sources */,
 				28EEC04B1118E28000187D67 /* AppDelegate_Shared.m in Sources */,
 				2819307D112F81BE00ECF9B4 /* DeviceAlarm.xcdatamodeld in Sources */,
-				2860E38A111B897F00E27156 /* AppDelegate_iPhone.m in Sources */,
 				76B79AE612F20E57002B60DE /* LocationController.m in Sources */,
 				76B79AE912F20E8E002B60DE /* AccelerometerController.m in Sources */,
 				76B79B5D12F2329A002B60DE /* AdsController.m in Sources */,
 				760031F912FD145A009E4D8F /* PlaySound.m in Sources */,
 				767BD27F131059CB008E3359 /* SettingsController.m in Sources */,
 				767BD2CE131063BD008E3359 /* MainController.m in Sources */,
+				76EC9A3C144A39D80085B6E3 /* GCPINViewController.m in Sources */,
+				76EC9A48144A480E0085B6E3 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,13 +381,17 @@
 		7600336912FF563C009E4D8F /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -389,12 +418,14 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv6,
+					armv7,
+				);
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -403,13 +434,15 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv6,
+					armv7,
+				);
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PREBINDING = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

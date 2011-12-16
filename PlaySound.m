@@ -28,7 +28,8 @@
 			
 			NSLog(@"Playing sound from the queue %@", path);
 			
-			[path release];
+            // this now kills the app
+			//[path release];
 		}
 		@catch (NSException * e) {
 			NSLog(@"Exception looking for sound");

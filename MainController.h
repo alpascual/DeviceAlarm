@@ -13,9 +13,11 @@
 #import "AccelerometerController.h"
 #import "PlaySound.h"
 #import "AdsController.h"
+#import "GCPINViewController.h"
+#import "DisableDelegate.h"
 
 
-@interface MainController : UIViewController <AlertDelegate, SoundDelegate>{
+@interface MainController : UIViewController <AlertDelegate, SoundDelegate, GCPINViewControllerDelegate, DisableDelegate>{
 
 	SettingsController *settings;
 	
@@ -26,6 +28,10 @@
     BOOL doRing;
     NSString *phoneNumber;
     UIBarButtonItem *settingsButton;
+    NSTimer *highlightTimer;
+    
+    UISwitch *onAndOff;
+    
 }
 
 @property (nonatomic, retain) SettingsController *settings;
@@ -36,12 +42,15 @@
 @property (nonatomic, retain) AdsController *AdsView;
 @property (nonatomic, retain) NSString *phoneNumber;
 @property (nonatomic, retain) IBOutlet UIBarButtonItem *settingsButton;
+@property (nonatomic, retain) IBOutlet UISwitch *onAndOff;
+
+@property (nonatomic, retain) NSTimer *highlightTimer;
 
 
 - (IBAction) settingsCalled;
 
-
 - (IBAction) switchChanged;
-//- (IBAction) startCalled;
+
+- (IBAction) changedPin;
 
 @end
