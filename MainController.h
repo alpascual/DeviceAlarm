@@ -15,6 +15,7 @@
 #import "AdsController.h"
 #import "GCPINViewController.h"
 #import "DisableDelegate.h"
+#import "LTHPasscodeViewController.h"
 
 
 @interface MainController : UIViewController <AlertDelegate, SoundDelegate, GCPINViewControllerDelegate, DisableDelegate>{
@@ -34,17 +35,17 @@
     
 }
 
-@property (nonatomic, retain) SettingsController *settings;
+@property (nonatomic, strong) SettingsController *settings;
 
-@property (nonatomic, retain) LocationController *locationControl;
-@property (nonatomic, retain) AccelerometerController *accelerometerControl;
-@property (nonatomic, retain) PlaySound *sounds;
-@property (nonatomic, retain) AdsController *AdsView;
-@property (nonatomic, retain) NSString *phoneNumber;
-@property (nonatomic, retain) IBOutlet UIBarButtonItem *settingsButton;
-@property (nonatomic, retain) IBOutlet UISwitch *onAndOff;
+@property (nonatomic, strong) LocationController *locationControl;
+@property (nonatomic, strong) AccelerometerController *accelerometerControl;
+@property (nonatomic, strong) PlaySound *sounds;
+@property (nonatomic, strong) AdsController *AdsView;
+@property (nonatomic, strong) NSString *phoneNumber;
+@property (nonatomic, strong) IBOutlet UIBarButtonItem *settingsButton;
+@property (nonatomic, strong) IBOutlet UISwitch *onAndOff;
 
-@property (nonatomic, retain) NSTimer *highlightTimer;
+@property (nonatomic, strong) NSTimer *highlightTimer;
 
 
 - (IBAction) settingsCalled;

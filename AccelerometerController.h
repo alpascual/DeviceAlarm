@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <CoreMotion/CoreMotion.h>
 
 #import "AlertDelegate.h"
 
@@ -26,8 +27,9 @@
 	
 }
 
-@property (nonatomic, retain) UIAccelerometer *accelerometerManager;
-@property (retain, nonatomic) id <AlertDelegate> noiseDelegate;
+@property (nonatomic, strong) UIAccelerometer *accelerometerManager;
+@property (strong, nonatomic) id <AlertDelegate> noiseDelegate;
+@property (strong, nonatomic) CMMotionManager *coreMotion;
 
 - (void) start;
 - (void) stop;

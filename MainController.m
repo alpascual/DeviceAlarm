@@ -44,15 +44,18 @@
         self.settingsButton.hidden = YES;
     }*/
     
+    
+    [[LTHPasscodeViewController sharedUser] showForEnablingPasscodeInViewController: self];
+    
     // check if the pin is set, if not call the view to set it
-    NSUserDefaults *myPrefs = [NSUserDefaults standardUserDefaults];
+    /*NSUserDefaults *myPrefs = [NSUserDefaults standardUserDefaults];
     if ( [myPrefs stringForKey:@"Pin"] == nil )
     {
         //  set timer
         self.highlightTimer = [NSTimer scheduledTimerWithTimeInterval: 1.0 target: self selector: @selector(timerCallback:) userInfo: nil repeats: NO];
         
           
-    }
+    }*/
 }
 
 - (void)timerCallback:(NSTimer *)timer {
@@ -113,18 +116,12 @@
 }
 
 
-- (void)dealloc {
-    [super dealloc];
-	
-	[self.settings release];
-}
-
 
 - (IBAction) settingsCalled
 {	
 	if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
 	{
-		self.settings = [[[SettingsController alloc] initWithNibName:@"iPadSettingsController" bundle:nil] autorelease];
+		self.settings = [[SettingsController alloc] initWithNibName:@"iPadSettingsController" bundle:nil];
 		
 		self.settings.modalPresentationStyle = UIModalPresentationFormSheet;
 		self.settings.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
@@ -132,7 +129,7 @@
 	}
 	else
 	{
-		self.settings = [[[SettingsController alloc] initWithNibName:@"SettingsController" bundle:nil] autorelease];
+		self.settings = [[SettingsController alloc] initWithNibName:@"SettingsController" bundle:nil];
 		
 		//if ( self.navigationController == nil )
 		//	self.navigationController = [[UINavigationController alloc] initWithRootViewController:self.settings];
@@ -159,34 +156,32 @@
 		[self.locationControl start];
 		[self.accelerometerControl start];
 		
+        [[LTHPasscodeViewController sharedUser] showForEnablingPasscodeInViewController: self];
 		
 		// Show the password screen
-		GCPINViewController *pinView = [[[GCPINViewController alloc] initWithNibName:@"PINViewDefault" bundle:nil] autorelease];
-        
-        pinView.titleLabel = @"Enter the correct Pin to disable";
-        
-        pinView.delegate = self;
-        
-        if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
-        {  
-            pinView.modalPresentationStyle = UIModalPresentationFormSheet;
-            pinView.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
-            [self presentModalViewController:pinView animated:YES];			
-            [self dismissModalViewControllerAnimated:YES];
-        }
-        else
-        {
-            [self.navigationController pushViewController:pinView animated:YES];
-            
-        } 
+//		GCPINViewController *pinView = [[GCPINViewController alloc] initWithNibName:@"PINViewDefault" bundle:nil];
+//        
+//        pinView.titleLabel = @"Enter the correct Pin to disable";
+//        
+//        pinView.delegate = self;
+//        
+//        if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+//        {  
+//            pinView.modalPresentationStyle = UIModalPresentationFormSheet;
+//            pinView.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+//            [self presentModalViewController:pinView animated:YES];			
+//            [self dismissModalViewControllerAnimated:YES];
+//        }
+//        else
+//        {
+//            [self.navigationController pushViewController:pinView animated:YES];
+//            
+//        } 
        
 	}
 	else {
 		[self.locationControl stop];
 		[self.accelerometerControl stop];
-		
-		[self.locationControl release];
-		[self.accelerometerControl release];
 		
 		self.locationControl = nil;
 		self.accelerometerControl = nil;
@@ -198,18 +193,15 @@
 {
     // Called when the alarm is disabled
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
-    {        
-        [self.AdsView dismissModalViewControllerAnimated:YES];
+    {   
+        [self.AdsView dismissViewControllerAnimated:YES completion:nil];
     }
     
-    [self.sounds release];
+    
     self.sounds = nil;
     
     [self.locationControl stop];
     [self.accelerometerControl stop];
-    
-    [self.locationControl release];
-    [self.accelerometerControl release];
     
     self.locationControl = nil;
     self.accelerometerControl = nil;
@@ -267,7 +259,9 @@
 
 - (IBAction) changedPin
 {
-    GCPINViewController *pinView = [[[GCPINViewController alloc] initWithNibName:@"PINViewDefault" bundle:nil] autorelease];
+    [[LTHPasscodeViewController sharedUser] showForEnablingPasscodeInViewController: self];
+    
+    /*GCPINViewController *pinView = [[GCPINViewController alloc] initWithNibName:@"PINViewDefault" bundle:nil];
     
     pinView.delegate = self;
     
@@ -276,13 +270,13 @@
         pinView.modalPresentationStyle = UIModalPresentationFormSheet;
         pinView.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
         
-        [self presentModalViewController:pinView animated:YES];				
+        [self presentModalViewController:pinView animated:YES];
     }
     else
     {
         [self.navigationController pushViewController:pinView animated:YES];
         
-    } 
+    } */
 }
 
 

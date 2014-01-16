@@ -32,7 +32,7 @@
 	
 	BOOL secureTextEntry;
 	
-	id<GCPINViewControllerDelegate> delegate;
+	id<GCPINViewControllerDelegate> __unsafe_unretained delegate;
 	
 	id userInfo;
     
@@ -44,9 +44,9 @@
 @property (nonatomic, copy) NSString *messageText;
 @property (nonatomic, copy) NSString *errorText;
 @property (nonatomic, assign) BOOL secureTextEntry;
-@property (nonatomic, assign) id<GCPINViewControllerDelegate> delegate;
-@property (nonatomic, retain) id userInfo;
-@property (nonatomic, retain) NSString *titleLabel;
+@property (nonatomic, unsafe_unretained) id<GCPINViewControllerDelegate> delegate;
+@property (nonatomic, strong) id userInfo;
+@property (nonatomic, strong) NSString *titleLabel;
 
 
 - (void)presentViewFromViewController:(UIViewController *)controller animated:(BOOL)animated;

@@ -39,6 +39,15 @@
 		76B79B3E12F22F6F002B60DE /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B79B3D12F22F6F002B60DE /* iAd.framework */; };
 		76B79B5D12F2329A002B60DE /* AdsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B79B5B12F2329A002B60DE /* AdsController.m */; };
 		76B79B5E12F2329A002B60DE /* AdsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76B79B5C12F2329A002B60DE /* AdsController.xib */; };
+		76C58B2018790DDB00F36F26 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76C58B1F18790DDB00F36F26 /* Default-568h@2x.png */; };
+		76C58B2D18790EF700F36F26 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76C58B2218790EF700F36F26 /* Localizable.strings */; };
+		76C58B2E18790EF700F36F26 /* LTHNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C58B2718790EF700F36F26 /* LTHNavigationViewController.m */; };
+		76C58B2F18790EF700F36F26 /* LTHPasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C58B2918790EF700F36F26 /* LTHPasscodeViewController.m */; };
+		76C58B3018790EF700F36F26 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C58B2C18790EF700F36F26 /* SFHFKeychainUtils.m */; };
+		76C58B3218790F0700F36F26 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C58B3118790F0700F36F26 /* Security.framework */; };
+		76C58B3A1879117C00F36F26 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C58B391879117C00F36F26 /* CoreMedia.framework */; };
+		76C58B3C1879118500F36F26 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C58B3B1879118500F36F26 /* QuartzCore.framework */; };
+		76C58B3E1879184100F36F26 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C58B3D1879184100F36F26 /* CoreMotion.framework */; };
 		76E133A6133E89860051F697 /* iPadAdsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76E133A5133E89860051F697 /* iPadAdsController.xib */; };
 		76EC9A3C144A39D80085B6E3 /* GCPINViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EC9A38144A39D80085B6E3 /* GCPINViewController.m */; };
 		76EC9A3D144A39D80085B6E3 /* PINBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 76EC9A39144A39D80085B6E3 /* PINBox.png */; };
@@ -92,6 +101,24 @@
 		76B79B5A12F2329A002B60DE /* AdsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdsController.h; sourceTree = "<group>"; };
 		76B79B5B12F2329A002B60DE /* AdsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdsController.m; sourceTree = "<group>"; };
 		76B79B5C12F2329A002B60DE /* AdsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdsController.xib; sourceTree = "<group>"; };
+		76C58B1F18790DDB00F36F26 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		76C58B2318790EF700F36F26 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		76C58B2418790EF700F36F26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		76C58B2518790EF700F36F26 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		76C58B2618790EF700F36F26 /* LTHNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTHNavigationViewController.h; sourceTree = "<group>"; };
+		76C58B2718790EF700F36F26 /* LTHNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTHNavigationViewController.m; sourceTree = "<group>"; };
+		76C58B2818790EF700F36F26 /* LTHPasscodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTHPasscodeViewController.h; sourceTree = "<group>"; };
+		76C58B2918790EF700F36F26 /* LTHPasscodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTHPasscodeViewController.m; sourceTree = "<group>"; };
+		76C58B2A18790EF700F36F26 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Localizable.strings; sourceTree = "<group>"; };
+		76C58B2B18790EF700F36F26 /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
+		76C58B2C18790EF700F36F26 /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
+		76C58B3118790F0700F36F26 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		76C58B3318790F3100F36F26 /* MediaAccessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaAccessibility.framework; path = System/Library/Frameworks/MediaAccessibility.framework; sourceTree = SDKROOT; };
+		76C58B3418790F3100F36F26 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		76C58B3518790F3100F36F26 /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
+		76C58B391879117C00F36F26 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		76C58B3B1879118500F36F26 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		76C58B3D1879184100F36F26 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		76E133A5133E89860051F697 /* iPadAdsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPadAdsController.xib; sourceTree = "<group>"; };
 		76EC9A37144A39D80085B6E3 /* GCPINViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCPINViewController.h; path = pinview/GCPINViewController.h; sourceTree = "<group>"; };
 		76EC9A38144A39D80085B6E3 /* GCPINViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCPINViewController.m; path = pinview/GCPINViewController.m; sourceTree = "<group>"; };
@@ -109,6 +136,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76C58B3E1879184100F36F26 /* CoreMotion.framework in Frameworks */,
+				76C58B3C1879118500F36F26 /* QuartzCore.framework in Frameworks */,
+				76C58B3A1879117C00F36F26 /* CoreMedia.framework in Frameworks */,
+				76C58B3218790F0700F36F26 /* Security.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
@@ -174,6 +205,8 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				76C58B2118790EF700F36F26 /* LTHPasscodeViewController */,
+				76C58B1F18790DDB00F36F26 /* Default-568h@2x.png */,
 				76EC9A36144A39B30085B6E3 /* PinView */,
 				2860E386111B897F00E27156 /* iPhone */,
 				29B97317FDCFA39411CA2CEA /* iPad */,
@@ -212,6 +245,13 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				76C58B3D1879184100F36F26 /* CoreMotion.framework */,
+				76C58B3B1879118500F36F26 /* QuartzCore.framework */,
+				76C58B391879117C00F36F26 /* CoreMedia.framework */,
+				76C58B3318790F3100F36F26 /* MediaAccessibility.framework */,
+				76C58B3418790F3100F36F26 /* MediaPlayer.framework */,
+				76C58B3518790F3100F36F26 /* MediaToolbox.framework */,
+				76C58B3118790F0700F36F26 /* Security.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
@@ -233,6 +273,20 @@
 				7600330E12FF4CD2009E4D8F /* Default.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		76C58B2118790EF700F36F26 /* LTHPasscodeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				76C58B2218790EF700F36F26 /* Localizable.strings */,
+				76C58B2618790EF700F36F26 /* LTHNavigationViewController.h */,
+				76C58B2718790EF700F36F26 /* LTHNavigationViewController.m */,
+				76C58B2818790EF700F36F26 /* LTHPasscodeViewController.h */,
+				76C58B2918790EF700F36F26 /* LTHPasscodeViewController.m */,
+				76C58B2B18790EF700F36F26 /* SFHFKeychainUtils.h */,
+				76C58B2C18790EF700F36F26 /* SFHFKeychainUtils.m */,
+			);
+			path = LTHPasscodeViewController;
 			sourceTree = "<group>";
 		};
 		76EC9A36144A39B30085B6E3 /* PinView */ = {
@@ -273,7 +327,12 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0440;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = L6RR26WWDD;
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DeviceAlarm" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -284,6 +343,10 @@
 				Japanese,
 				French,
 				German,
+				de,
+				en,
+				es,
+				ro,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
@@ -300,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow_iPad.xib in Resources */,
+				76C58B2018790DDB00F36F26 /* Default-568h@2x.png in Resources */,
 				2860E38B111B897F00E27156 /* MainWindow_iPhone.xib in Resources */,
 				76B79B5E12F2329A002B60DE /* AdsController.xib in Resources */,
 				760032E712FF4A8B009E4D8F /* alarm.wav in Resources */,
@@ -311,6 +375,7 @@
 				7600335112FF55A1009E4D8F /* Icon@2x.png in Resources */,
 				767BD26813104341008E3359 /* alarm1.gif in Resources */,
 				767BD26B131043F9008E3359 /* matrix.jpg in Resources */,
+				76C58B2D18790EF700F36F26 /* Localizable.strings in Resources */,
 				767BD280131059CB008E3359 /* SettingsController.xib in Resources */,
 				767BD29213105E74008E3359 /* iPadSettingsController.xib in Resources */,
 				767BD2CF131063BD008E3359 /* MainController.xib in Resources */,
@@ -330,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				76C58B2F18790EF700F36F26 /* LTHPasscodeViewController.m in Sources */,
 				28EEC04B1118E28000187D67 /* AppDelegate_Shared.m in Sources */,
 				2819307D112F81BE00ECF9B4 /* DeviceAlarm.xcdatamodeld in Sources */,
 				76B79AE612F20E57002B60DE /* LocationController.m in Sources */,
@@ -338,27 +404,47 @@
 				760031F912FD145A009E4D8F /* PlaySound.m in Sources */,
 				767BD27F131059CB008E3359 /* SettingsController.m in Sources */,
 				767BD2CE131063BD008E3359 /* MainController.m in Sources */,
+				76C58B3018790EF700F36F26 /* SFHFKeychainUtils.m in Sources */,
 				76EC9A3C144A39D80085B6E3 /* GCPINViewController.m in Sources */,
 				76EC9A48144A480E0085B6E3 /* RootViewController.m in Sources */,
+				76C58B2E18790EF700F36F26 /* LTHNavigationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76C58B2218790EF700F36F26 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76C58B2318790EF700F36F26 /* de */,
+				76C58B2418790EF700F36F26 /* en */,
+				76C58B2518790EF700F36F26 /* es */,
+				76C58B2A18790EF700F36F26 /* ro */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DeviceAlarm_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "DeviceAlarm-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = DeviceAlarm;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -366,14 +452,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "~/Pet Projects/DeviceAlarm/Entitlements.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DeviceAlarm_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "DeviceAlarm-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = DeviceAlarm;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -388,6 +480,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
@@ -402,13 +495,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DeviceAlarm_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "DeviceAlarm-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = DeviceAlarm;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				VALIDATE_PRODUCT = YES;
@@ -424,6 +520,7 @@
 				);
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				SDKROOT = iphoneos;
@@ -440,6 +537,7 @@
 				);
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";

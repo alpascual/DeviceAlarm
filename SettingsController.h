@@ -18,10 +18,10 @@
     id <AlertDelegate> noiseDelegate;
 }
 
-@property (nonatomic,retain) IBOutlet UITextField *phoneNumber;
-@property (nonatomic,retain) IBOutlet UISwitch *mySwitch;
+@property (nonatomic,strong) IBOutlet UITextField *phoneNumber;
+@property (nonatomic,strong) IBOutlet UISwitch *mySwitch;
 
-@property (retain, nonatomic) id <AlertDelegate> noiseDelegate;
+@property (strong, nonatomic) id <AlertDelegate> noiseDelegate;
 
 
 - (IBAction) saveCalled;

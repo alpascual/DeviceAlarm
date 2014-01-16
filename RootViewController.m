@@ -102,8 +102,8 @@
 		[self.locationControl stop];
 		[self.accelerometerControl stop];
 		
-		[self.locationControl release];
-		[self.accelerometerControl release];
+		self.locationControl;
+		self.accelerometerControl;
 		
 		self.locationControl = nil;
 		self.accelerometerControl = nil;
@@ -155,14 +155,7 @@
 	}
 }
 
-- (void)dealloc {
-    [self.locationControl release];
-    self.locationControl = nil;
-    [self.accelerometerControl release];
-    self.accelerometerControl = nil;
-    [self.sounds release];
-    self.sounds = nil;
-}
+
 
 
 @end

@@ -41,7 +41,7 @@
         OSStatus    error;
         if ((error = AudioSessionInitialize (NULL, NULL, inInterruptionListener, NULL)))
         {
-            NSLog(@"*** Error *** error in AudioSessionInitialize: %d.", error);
+            NSLog(@"*** Error *** error in AudioSessionInitialize: %d.", (int)error);
         }
         else
         {
@@ -62,6 +62,8 @@
 
 - (BOOL)pinView:(GCPINViewController *)pinView validateCode:(NSString *)code
 {
+    
+    //[[LTHPasscodeViewController sharedUser] showForEnablingPasscodeInViewController: self];
     NSUserDefaults *myPrefs = [NSUserDefaults standardUserDefaults];
     
     NSString *storedPin = [myPrefs objectForKey:@"Pin"];
@@ -77,7 +79,7 @@
         }
         
         else
-            [self.navigationController popToViewController:[[self.navigationController viewControllers] objectAtIndex:1] animated:YES];
+            [self.navigationController popToViewController:[self.navigationController viewControllers][1] animated:YES];
             //[self.navigationController popViewControllerAnimated:YES];
         
         // calling the delegate
@@ -104,25 +106,27 @@
 
 - (void) showPassword
 {
-    GCPINViewController *pinView = [[[GCPINViewController alloc] initWithNibName:@"PINViewDefault" bundle:nil] autorelease];
+    [[LTHPasscodeViewController sharedUser] showForEnablingPasscodeInViewController: self];
     
-    pinView.titleLabel = @"Enter the correct Pin to disable";
+//    GCPINViewController *pinView = [[GCPINViewController alloc] initWithNibName:@"PINViewDefault" bundle:nil];
     
-    pinView.delegate = self;
-    
-    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
-    {  
-        pinView.modalPresentationStyle = UIModalPresentationFormSheet;
-        pinView.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
-        [self presentModalViewController:pinView animated:YES];			
-        [self dismissModalViewControllerAnimated:YES];
-    }
-    else
-    {
-        [self.navigationController pushViewController:pinView animated:YES];
-        
-    } 
-    
+//    pinView.titleLabel = @"Enter the correct Pin to disable";
+//    
+//    pinView.delegate = self;
+//    
+//    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+//    {  
+//        pinView.modalPresentationStyle = UIModalPresentationFormSheet;
+//        pinView.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+//        [self presentModalViewController:pinView animated:YES];			
+//        [self dismissModalViewControllerAnimated:YES];
+//    }
+//    else
+//    {
+//        [self.navigationController pushViewController:pinView animated:YES];
+//        
+//    } 
+//    
     //[pinView release];
 }
 
@@ -148,9 +152,6 @@
 }
 
 
-- (void)dealloc {
-    [super dealloc];
-}
 
 
 @end

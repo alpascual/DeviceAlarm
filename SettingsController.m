@@ -63,9 +63,6 @@
 }
 
 
-- (void)dealloc {
-    [super dealloc];
-}
 
 - (IBAction) saveCalled
 {

@@ -23,7 +23,7 @@
     NSPersistentStoreCoordinator *persistentStoreCoordinator_;
 }
 
-@property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, strong) IBOutlet UIWindow *window;
 @property (strong, nonatomic) RootViewController *viewController;
 @property (strong, nonatomic) UINavigationController *navigationController;
 

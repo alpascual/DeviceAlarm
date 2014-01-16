@@ -11,6 +11,7 @@
 #import <AudioToolbox/AudioToolbox.h>
 #import "GCPINViewController.h"
 #import "DisableDelegate.h"
+#import "LTHPasscodeViewController.h"
 
 
 @interface AdsController : UIViewController <GCPINViewControllerDelegate>{
@@ -27,10 +28,10 @@
 }
 
 //@property (nonatomic, retain) IBOutlet ADBannerView *iAdView;
-@property (nonatomic, retain) NSTimer *highlightTimer;
-@property (nonatomic, retain) NSTimer *checkTimer;
-@property (nonatomic, retain) id <DisableDelegate> Disable;
-@property (nonatomic, retain) UIViewController  *myParent;
+@property (nonatomic, strong) NSTimer *highlightTimer;
+@property (nonatomic, strong) NSTimer *checkTimer;
+@property (nonatomic, strong) id <DisableDelegate> Disable;
+@property (nonatomic, strong) UIViewController  *myParent;
 
 - (void) showPassword;
 

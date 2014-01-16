@@ -22,8 +22,8 @@
 	
 }
 
-@property (nonatomic, retain) CLLocationManager *locationManager;  
-@property (retain, nonatomic) id <AlertDelegate> noiseDelegate;
+@property (nonatomic, strong) CLLocationManager *locationManager;  
+@property (strong, nonatomic) id <AlertDelegate> noiseDelegate;
 
 - (void)locationManager:(CLLocationManager *)manager
     didUpdateToLocation:(CLLocation *)newLocation

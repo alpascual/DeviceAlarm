@@ -16,7 +16,7 @@
 	id <SoundDelegate> soundDelegate;
 }
 
-@property (retain, nonatomic) id <SoundDelegate> soundDelegate;
+@property (strong, nonatomic) id <SoundDelegate> soundDelegate;
 
 -(void)playSound:(NSString *)nextSound;
 void MyAudioServicesSystemSoundCompletionProc(SystemSoundID ssID, void *clientData);

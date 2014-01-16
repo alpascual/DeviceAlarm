@@ -21,9 +21,9 @@
 			
 			NSString *path = [[NSBundle mainBundle] pathForResource:nextSound ofType:@"wav"];
 			SystemSoundID soundID;
-			AudioServicesCreateSystemSoundID((CFURLRef)[NSURL fileURLWithPath:path], &soundID);
+			AudioServicesCreateSystemSoundID((__bridge CFURLRef)[NSURL fileURLWithPath:path], &soundID);
 			
-			AudioServicesAddSystemSoundCompletion (soundID,NULL,NULL,MyAudioServicesSystemSoundCompletionProc, /*(void*)*/ self);
+			AudioServicesAddSystemSoundCompletion (soundID,NULL,NULL,MyAudioServicesSystemSoundCompletionProc, /*(void*)*/ (__bridge void *)(self));
 			AudioServicesPlaySystemSound (soundID);	
 			
 			NSLog(@"Playing sound from the queue %@", path);
@@ -45,7 +45,7 @@ void MyAudioServicesSystemSoundCompletionProc(SystemSoundID ssID, void *clientDa
 	NSLog(@"Finished playing sounds");
 	//cleanup
 	//AudioServicesDisposeSystemSoundID(ssID);
-	PlaySound *pSoundQueue = clientData;
+	PlaySound *pSoundQueue = (__bridge PlaySound *)(clientData);
 	//[pSoundQueue playQueue]; //it crashes here: EXC_BAD_ACCESS
 	
 	[pSoundQueue.soundDelegate finish];

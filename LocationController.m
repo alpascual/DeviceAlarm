@@ -16,7 +16,7 @@
 - (id) init {
     self = [super init];
     if (self != nil) {
-        self.locationManager = [[[CLLocationManager alloc] init] autorelease];
+        self.locationManager = [[CLLocationManager alloc] init];
 		self.locationManager.distanceFilter = 25;
 		
         self.locationManager.delegate = self; // send loc updates to myself
@@ -85,8 +85,7 @@
 }
 
 - (void)dealloc {
-    [self.locationManager release];
-    [super dealloc];
+    self.locationManager;
 }
 
 

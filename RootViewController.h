@@ -31,16 +31,16 @@
 	MainController *mainController;
 }
 
-@property (nonatomic, retain) IBOutlet UISwitch *mySwitch;
-@property (nonatomic, retain) IBOutlet UIBarButtonItem *settingsBtn;
+@property (nonatomic, strong) IBOutlet UISwitch *mySwitch;
+@property (nonatomic, strong) IBOutlet UIBarButtonItem *settingsBtn;
 
-@property (nonatomic, retain) LocationController *locationControl;
-@property (nonatomic, retain) AccelerometerController *accelerometerControl;
-@property (nonatomic, retain) PlaySound *sounds;
+@property (nonatomic, strong) LocationController *locationControl;
+@property (nonatomic, strong) AccelerometerController *accelerometerControl;
+@property (nonatomic, strong) PlaySound *sounds;
 
-@property (nonatomic, retain) MainController *mainController;
+@property (nonatomic, strong) MainController *mainController;
 
-@property (nonatomic, retain) IBOutlet AdsController *AdsView;
+@property (nonatomic, strong) IBOutlet AdsController *AdsView;
 
 - (NSURL *)applicationDocumentsDirectory;
 - (void)saveContext;

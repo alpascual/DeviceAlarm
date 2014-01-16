@@ -30,7 +30,7 @@
 }
 - (void)updatePINDisplay {
 	for (NSInteger i = 0; i < [PINText length]; i++) {
-	  UILabel *label = [pinFields objectAtIndex:i];
+	  UILabel *label = pinFields[i];
 		if (self.secureTextEntry) {
 			[label setText:@"●"];
 		}
@@ -41,7 +41,7 @@
 		}
 	}
 	for (NSInteger i = [PINText length]; i < 4; i++) {
-		UILabel *label = [pinFields objectAtIndex:i];
+		UILabel *label = pinFields[i];
 		[label setText:@""];
 	}
 }
@@ -60,7 +60,7 @@
 	if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
 		self.messageText = @"";
 		self.errorText = @"";
-		PINText = [@"" retain];
+		PINText = @"";
 		self.title = @"";
 		self.delegate = nil;
 		self.secureTextEntry = YES;
@@ -77,7 +77,6 @@
 	
 	[super viewDidUnload];
 	
-	[pinFields release];
 	pinFields = nil;
 	
 	fieldOneLabel = nil;
@@ -93,16 +92,13 @@
 													name:UITextFieldTextDidChangeNotification
 												  object:inputField];
 	
-	[pinFields release];
 	pinFields = nil;
 	
-	[PINText release];
 	PINText = nil;
 	
 	self.errorText = nil;
 	self.messageText = nil;
 	
-    [super dealloc];
 }
 
 #pragma mark -
@@ -123,9 +119,8 @@
 	[inputField becomeFirstResponder];
 	
 	// setup pinfields list
-	pinFields = [[NSArray alloc] initWithObjects:
-				 fieldOneLabel, fieldTwoLabel,
-				 fieldThreeLabel, fieldFourLabel, nil];
+	pinFields = @[fieldOneLabel, fieldTwoLabel,
+				 fieldThreeLabel, fieldFourLabel];
 	
 	// set initial pin text
 	[self updatePINDisplay];
@@ -152,7 +147,6 @@
 - (void)presentViewFromViewController:(UIViewController *)controller animated:(BOOL)animated {
 	UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:self];
 	[controller presentModalViewController:navController animated:animated];
-	[navController release];
 }
 
 #pragma mark -
@@ -165,17 +159,16 @@
 		if ([newText length] == 4) {
 			NSString *toValidate = [field.text copy];
 			BOOL valid = [delegate pinView:self validateCode:toValidate];
-			[toValidate release];
-			if (!valid) {
-				AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
-				[self setErrorLabelHidden:NO animated:YES];
-				inputField.text = @"";
-			}
-            else
+//			[toValidate release];
+//			if (!valid) {
+//				AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+//				[self setErrorLabelHidden:NO animated:YES];
+//				inputField.text = @"";
+//			}
+//            else
                 [self dismissModalViewControllerAnimated:YES];
 		}
 		else {
-			[PINText release];
 			PINText = [newText copy];
             
 		}
@@ -196,14 +189,12 @@
 #pragma mark -
 #pragma mark cutsom accessors
 - (void)setMessageText:(NSString *)text {
-	[messageText release];
 	messageText = [text copy];
 	if (messageLabel != nil) {
 		messageLabel.text = messageText;
 	}
 }
 - (void)setErrorText:(NSString *)text {
-	[errorText release];
 	errorText = [text copy];
 	if (errorLabel != nil) {
 		errorLabel.text = errorText;

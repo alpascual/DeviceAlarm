@@ -30,9 +30,19 @@
 {
 	iTries = 0;
     iTriesHand = 0;
-	
+    
 	[[UIAccelerometer sharedAccelerometer] setUpdateInterval:(1.0)];
 	[[UIAccelerometer sharedAccelerometer] setDelegate:self];
+    
+    
+    // TODO, test this soon. Also a timer to inspect the data from the sensors
+    self.coreMotion = [[CMMotionManager  alloc] init];
+    self.coreMotion.deviceMotionUpdateInterval = 1;
+    self.coreMotion.accelerometerUpdateInterval = 1;
+    self.coreMotion.gyroUpdateInterval = 1;
+    [self.coreMotion startAccelerometerUpdates];
+    [self.coreMotion startDeviceMotionUpdates];
+    [self.coreMotion startGyroUpdates];
         
     UIDevice *device = [UIDevice currentDevice];
     device.proximityMonitoringEnabled = YES;
@@ -65,6 +75,9 @@
 - (void) stop
 {
 	[[UIAccelerometer sharedAccelerometer] setDelegate:nil];
+    [self.coreMotion stopAccelerometerUpdates];
+    [self.coreMotion stopDeviceMotionUpdates];
+    [self.coreMotion stopGyroUpdates];
 }
 
 - (void)accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration {
